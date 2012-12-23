@@ -19,7 +19,6 @@ public class FlatfileVoteListener implements VoteListener {
 	/** The logger instance. */
 	private static final Logger log = Logger.getLogger("FlatfileVoteListener");
 
-	@Override
 	public void voteMade(Vote vote) {
 		try {
 			// Open a buffered writer in append mode.
